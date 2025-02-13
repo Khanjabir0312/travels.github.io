@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design Mastery | SoulTravel</title>
+<link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet" />
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">Soul<span>Travel</span>.</a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Destination</a></li>
+            <li><a href="#about">Package</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__btns">
+            <button class="btn sign__up">Sign Up</button>
+            <button class="btn sign__in">Sign In</button>
+        </div>
+    </nav>
+    
+    <header class="header__container">
+        <div class="header__image">
+            <img src="header.png" alt="Travel Adventure" />
+        </div>
+        <div class="header__content">
+            <h1>LET'S GO!<br />THE <span>ADVENTURE</span> IS WAITING FOR YOU</h1>
+            <p>Embark on Your Journey Today and Discover Uncharted Wonders Around the World - Your Adventure Awaits!</p>
+        </div>
+    </header>
+    
+    <section id="home">
+        <h2>Destination</h2>
+        <p>TOnce a year, go someplace you’ve never been before.
+          <li>Greece – Santorini, Athens, Mykonos</li>
+          <li>Japan – Kyoto, Tokyo, Osaka</li>
+          <li>France – Paris, Nice, Marseille</li>
+          <li>United States – New York, Los Angeles, Miami</li>
+          <li>Italy – Rome, Venice, Florence</li>
+        </p>
+        <button id="getStarted">Get Started</button>
+    </section>
+    
+    <section id="about">
+        <h2>Package</h2>
+           <li> Greece – Santorini Escape
+          Duration: 5 Days / 4 Nights
+          Includes: Hotel stay, breakfast, guided island tour, sunset cruise
+          Price: $1,500 per person</li><br>
+          <li> Japan – Tokyo & Kyoto Adventure
+            Duration: 7 Days / 6 Nights
+            Includes: Accommodation, bullet train pass, city tours, traditional tea ceremony
+            Price: $2,200 per person</li><br>
+            <li>3.Thailand – Phuket Beach Retreat
+              Duration: 5 Days / 4 Nights
+              Includes: Beach resort stay, island hopping, water activities
+              Price: $1,200 per person</li>
+    </section>
+
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <p>"The best way to find yourself is to lose yourself in the service of others." </p>
+            <li>Charging point</li>
+            <li>CCTV</li>
+            <li>Blankets
+            </li>
+            <li>Pillows</li>
+            <li>Movies</li>
+            <li>Food</li>
+            <li>Breakfast</li>
+            <li>Dinner</li>
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Blog</h2>
+        <ul>
+            <li>1. Best Travel Destinations
+              "Top 10 Must-Visit Destinations in 2025"
+              "Hidden Gems: Underrated Places to Visit"
+              "Most Scenic Road Trips Around the World"</li>
+            <li>2. Travel Tips & Guides
+              "How to Travel on a Budget: Money-Saving Tips"
+              "Essential Packing List for Every Traveler"
+              "Solo Travel Safety Tips for First-Time Explorers"</li>
+            <li>3. Adventure & Experiences
+              "My First Scuba Diving Experience in Bali"
+              "Hiking the Inca Trail: A Complete Guide"
+              "Best Safari Experiences in Africa"</li>
+            <li>4. Cultural & Food Experiences
+              "A Foodie’s Guide to Street Food in Thailand"
+              "Exploring the Traditions of Japan’s Cherry Blossom Festival"
+              "Top 5 Local Dishes You Must Try in Italy"</li>
+              <li>5. Travel Stories & Personal Experiences
+                "How Traveling Changed My Perspective on Life"
+                "The Time I Got Lost in Paris: A Funny Travel Story"
+                "Lessons I Learned from Traveling Alone"</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Talk to us. We’ve been there. Want more information? Let us know, and we'll be in touch shortly.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+  
+       
+        ScrollReveal().reveal(".header__content h1", { distance: "50px", origin: "bottom", duration: 1000, delay: 500 });
+    <script src="main.js"></script>
+</body>
+</html>
